@@ -1,0 +1,27 @@
+body
+{
+	color: #333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 10px;
+}
+
+.ad {
+	float:left;
+	padding:0px 50px 50px 0px;
+}
+
+h1, p { margin-top: 0; }
+
+#intro h1 {
+	font-size: 12pt;
+	line-height: 100%;
+	margin-bottom: 25px;
+	margin-top:25px;
+}
+
+#footer
+{
+	font-size: 10pt;
+}
+
+#footer { clear:left;font-weight: bold; }

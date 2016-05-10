@@ -1,0 +1,16 @@
+{
+  "name": "video-amp-test",
+  "version": "0.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "mongoose": "4.4.16"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines" : {
+    "node" : "0.12.x"
+  }
+}
