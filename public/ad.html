@@ -1,8 +1,6 @@
 
 <!-- LEFT PRETTY FOR READABLITY  -->
 
-<!-- Methodology:   Since from my knowledge most (if not all) ads are served in iframes, so my methodology was to jump to the parent document and query the page for all available iframes. I then look in each iframe to determine if it has either an img, video or object tag… if they have that then I suspect it’s an ad and I add it to the package object and send it off  -->
-
 <img src="images/ad.jpg" width="300" height="250" alt="" border="0" onload="
 
 	var parentDocIframes = window.parent.document.getElementsByTagName('iframe');
