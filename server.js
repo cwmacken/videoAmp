@@ -27,9 +27,12 @@ app.post('/dataIntake', function(req, res){
       length  : req.body.length,
       elerrors : req.body.errors
     }).save( function( err, page, count ){
-      // print any errors and/or page object saved
+      // print any errors and/or page object saved then response with success if there is no error
       console.log(err);
-      console.log(page);
+      if(err === null){
+        console.log(page);
+        res.end('success !');
+      }
     });
 
 });

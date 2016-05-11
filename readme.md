@@ -2,6 +2,11 @@
 
 To start:
 
+make sure mongo is running or run
+```
+mongod
+```
+in a separate terminal window run
 ```
  node server.js
 ```
@@ -12,6 +17,11 @@ runs at
 http://localhost:3000/
 ```
 
+test with
+
+```
+npm test
+```
 
 #### 1.Write javascript that would be injected on a page and run within the context of an iFrame
 
@@ -57,14 +67,21 @@ I would have either have 2 sections in a read me file or two additional md files
 
 #### 8.Provide at least (hopefully more) one example of a test (with the suite of your choice)
 
-TODO
+Done. In test/test.js.
 
 #### 9.Describe what shortcuts you made and tradeoffs to real-world development
 
-Lots. First off I would have a much more robust backend, probably passing the req.body of /dataIntake into a library to clean up the service and make it pretty. Once it had its own lib I would aggressively check for errors in the data. I would send a class back telling the ad/client that I had received the data. I would likely put more try-catches in the client side queriers and play around with extracting ALOT more data. I would also most likely tighten up some of my naming conventions.
+Lots. First off I would have a much more robust backend, probably passing the req.body of /dataIntake into a library to clean up the service and make it pretty. Once it had its own lib I would aggressively check for errors in the data. I would send a call back telling the ad/client that I had received the data. I would likely put more try-catches in the client side queriers and play around with extracting ALOT more data. I would also most likely tighten up some of my naming conventions.
 
 #### 10.Write a Readme in Markdown to describe all of the above
 
 Done.
 
+<(-_-)>
+ /() \
+ \|  /
+ <| <>
 
+ '''
+ give him the job you should
+ '''

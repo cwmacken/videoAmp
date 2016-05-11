@@ -4,13 +4,17 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.4.3",
+    "chai": "^3.5.0",
     "express": "^4.4.5",
-    "mongoose": "4.4.16"
+    "mongoose": "4.4.16",
+    "request": "^2.72.0",
+    "should": "^8.3.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha"
   },
-  "engines" : {
-    "node" : "0.12.x"
+  "engines": {
+    "node": "0.12.x"
   }
 }
