@@ -1,16 +1,16 @@
-## _VideoAmp Code Test_
+## VideoAmp Code Test
 
 To start:
 
-'''
+```
  node server.js
-'''
+```
 
 runs at
 
-'''
+```
 http://localhost:3000/
-'''
+```
 
 
 ### 1.Write javascript that would be injected on a page and run within the context of an iFrame
@@ -37,7 +37,7 @@ Done, start at server.js
 
 Done, located at db.js
 
-_SCALE_
+**SCALE**
 
 - NoSQL databases are especially useful in distributed systems or that needs to have high availability
 
@@ -45,7 +45,7 @@ _SCALE_
 
 - SQL databases become hard to maintain when they become distributed
 
-_DEVELOPEMNT_
+**DEVELOPEMNT**
 
 - SQL databases tend to be better at complex queries
 
