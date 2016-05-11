@@ -13,11 +13,11 @@ http://localhost:3000/
 ```
 
 
-### 1.Write javascript that would be injected on a page and run within the context of an iFrame
+#### 1.Write javascript that would be injected on a page and run within the context of an iFrame
 
 Done in public/ad.html.
 
-### 2.This script should send a native XHR POST request with JSON detailing the number of display ads and their sizes (say 300x250, 160x200, video ads)
+#### 2.This script should send a native XHR POST request with JSON detailing the number of display ads and their sizes (say 300x250, 160x200, video ads)
 
 Done in public/ad.html.
 
