@@ -1,6 +1,6 @@
-_VideoAmp Code Test_ #H1
+#H1 _VideoAmp Code Test_
 
-1.Write javascript that would be injected on a page and run within the context of an iFrame #h2
+#h2 1.Write javascript that would be injected on a page and run within the context of an iFrame 
 2.This script should send a native XHR POST request with JSON detailing the number of display ads and their sizes (say 300x250, 160x200, video ads)
 —————  
 3.Describe (in either inline comments or in summary) about your methodology for determining whether something is an ad -X
