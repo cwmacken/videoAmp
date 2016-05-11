@@ -71,7 +71,7 @@ Done. In test/test.js.
 
 #### 9.Describe what shortcuts you made and tradeoffs to real-world development
 
-Lots. First off I would have a much more robust backend, probably passing the req.body of /dataIntake into a library to clean up the service and make it pretty. Once it had its own lib I would aggressively check for errors in the data. I would also make the schemas more robust. I would likely put more try-catches in the client side queries and play around with extracting ALOT more data. I would also most likely tighten up some of my naming conventions.
+Lots. First off I would have a much more robust backend, probably passing the req.body of /dataIntake into a library to clean up the service and make it pretty. Once it had it in its own lib I would aggressively check for errors in the data. I would also make the schemas more robust. I would likely put more try-catches in the client side queries and play around with extracting ALOT more data. I would also most likely tighten up some of my naming conventions.
 
 #### 10.Write a Readme in Markdown to describe all of the above
 
