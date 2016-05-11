@@ -76,12 +76,3 @@ Lots. First off I would have a much more robust backend, probably passing the re
 #### 10.Write a Readme in Markdown to describe all of the above
 
 Done.
-
-<(-_-)>  
- /() \  
- \|  /  
- <| <>  
-
- '''
- give him the job you should
- '''
